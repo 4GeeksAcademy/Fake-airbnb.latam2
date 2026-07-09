@@ -1,0 +1,314 @@
+[
+  {
+    "id": "1",
+    "photos": [
+      "photo-1-1.jpg",
+      "photo-1-2.jpg",
+      "photo-1-3.jpg",
+      "photo-1-4.jpg",
+      "photo-1-5.jpg"
+    ],
+    "description": "Departamento luminoso a pasos de la costa, ideal para descansar escuchando el mar. El balcón privado permite desayunar con vista abierta y atardeceres amplios. Está equipado para estancias cortas o de una semana completa.",
+    "host": {
+      "name": "Carolina",
+      "yearsHosting": 6,
+      "avatarPlaceholder": "avatar-1.jpg"
+    },
+    "amenities": [
+      { "icon": "waves", "label": "Vista al mar" },
+      { "icon": "wifi", "label": "Wifi de alta velocidad" },
+      { "icon": "snowflake", "label": "Aire acondicionado" },
+      { "icon": "car", "label": "Estacionamiento" },
+      { "icon": "utensils", "label": "Cocina equipada" },
+      { "icon": "sun", "label": "Balcón privado" }
+    ],
+    "guestsMin": 1,
+    "guestsMax": 4
+  },
+  {
+    "id": "2",
+    "photos": [
+      "photo-2-1.jpg",
+      "photo-2-2.jpg",
+      "photo-2-3.jpg",
+      "photo-2-4.jpg"
+    ],
+    "description": "Loft costero moderno con ventanales y excelente ventilación natural. Está pensado para parejas o viajeros que buscan playa y ciudad en el mismo viaje. La zona ofrece restaurantes y paseos a distancia caminable.",
+    "host": {
+      "name": "Javier",
+      "yearsHosting": 4,
+      "avatarPlaceholder": "avatar-2.jpg"
+    },
+    "amenities": [
+      { "icon": "waves", "label": "Cerca de la playa" },
+      { "icon": "wifi", "label": "Wifi" },
+      { "icon": "coffee", "label": "Cafetera" },
+      { "icon": "tv", "label": "Smart TV" },
+      { "icon": "key", "label": "Check-in autónomo" },
+      { "icon": "fan", "label": "Ventilación de techo" }
+    ],
+    "guestsMin": 1,
+    "guestsMax": 3
+  },
+  {
+    "id": "3",
+    "photos": [
+      "photo-3-1.jpg",
+      "photo-3-2.jpg",
+      "photo-3-3.jpg",
+      "photo-3-4.jpg",
+      "photo-3-5.jpg",
+      "photo-3-6.jpg"
+    ],
+    "description": "Villa de gran tamaño con áreas exteriores para reuniones y descanso. La piscina infinita y los espacios comunes la hacen ideal para viajes familiares. Combina privacidad, lujo y acceso rápido a zonas comerciales.",
+    "host": {
+      "name": "Monica",
+      "yearsHosting": 9,
+      "avatarPlaceholder": "avatar-3.jpg"
+    },
+    "amenities": [
+      { "icon": "pool", "label": "Piscina infinita" },
+      { "icon": "car", "label": "Garage para 2 autos" },
+      { "icon": "shield", "label": "Seguridad 24 horas" },
+      { "icon": "dumbbell", "label": "Gimnasio privado" },
+      { "icon": "chef-hat", "label": "Cocina premium" },
+      { "icon": "tree", "label": "Jardín amplio" },
+      { "icon": "wifi", "label": "Wifi" }
+    ],
+    "guestsMin": 2,
+    "guestsMax": 8
+  },
+  {
+    "id": "4",
+    "photos": [
+      "photo-4-1.jpg",
+      "photo-4-2.jpg",
+      "photo-4-3.jpg",
+      "photo-4-4.jpg",
+      "photo-4-5.jpg"
+    ],
+    "description": "Mansión de estilo mediterráneo con interiores cálidos y zonas verdes privadas. Ofrece ambientes amplios para grupos que buscan comodidad y privacidad. La terraza principal es perfecta para cenas al aire libre.",
+    "host": {
+      "name": "Élodie",
+      "yearsHosting": 7,
+      "avatarPlaceholder": "avatar-4.jpg"
+    },
+    "amenities": [
+      { "icon": "pool", "label": "Piscina" },
+      { "icon": "tree", "label": "Jardín privado" },
+      { "icon": "wine", "label": "Terraza para cenas" },
+      { "icon": "fire", "label": "Chimenea" },
+      { "icon": "car", "label": "Estacionamiento gratuito" },
+      { "icon": "wifi", "label": "Wifi de fibra" }
+    ],
+    "guestsMin": 2,
+    "guestsMax": 7
+  },
+  {
+    "id": "5",
+    "photos": [
+      "photo-5-1.jpg",
+      "photo-5-2.jpg",
+      "photo-5-3.jpg",
+      "photo-5-4.jpg"
+    ],
+    "description": "Estudio compacto con diseño limpio y funcional para escapadas urbanas. Su distribución optimiza el espacio y mantiene todo al alcance. Está ubicado en un sector con cafeterías, metro y vida nocturna.",
+    "host": {
+      "name": "Min-ji",
+      "yearsHosting": 5,
+      "avatarPlaceholder": "avatar-5.jpg"
+    },
+    "amenities": [
+      { "icon": "wifi", "label": "Wifi" },
+      { "icon": "washer", "label": "Lavadora" },
+      { "icon": "laptop", "label": "Espacio de trabajo" },
+      { "icon": "snowflake", "label": "Aire acondicionado" },
+      { "icon": "key", "label": "Ingreso con código" },
+      { "icon": "train", "label": "Cerca de transporte público" }
+    ],
+    "guestsMin": 1,
+    "guestsMax": 2
+  },
+  {
+    "id": "6",
+    "photos": [
+      "photo-6-1.jpg",
+      "photo-6-2.jpg",
+      "photo-6-3.jpg",
+      "photo-6-4.jpg",
+      "photo-6-5.jpg"
+    ],
+    "description": "Ático contemporáneo con mucha luz natural y vista a la ciudad. Es una opción cómoda para quienes trabajan remoto y quieren explorar el barrio creativo. Cuenta con acabados modernos y zonas de descanso bien definidas.",
+    "host": {
+      "name": "Rita",
+      "yearsHosting": 8,
+      "avatarPlaceholder": "avatar-6.jpg"
+    },
+    "amenities": [
+      { "icon": "wifi", "label": "Wifi rápido" },
+      { "icon": "laptop", "label": "Escritorio de trabajo" },
+      { "icon": "coffee", "label": "Cafetera espresso" },
+      { "icon": "speaker", "label": "Parlante bluetooth" },
+      { "icon": "sun", "label": "Terraza urbana" },
+      { "icon": "elevator", "label": "Ascensor" }
+    ],
+    "guestsMin": 1,
+    "guestsMax": 4
+  },
+  {
+    "id": "7",
+    "photos": [
+      "photo-7-1.jpg",
+      "photo-7-2.jpg",
+      "photo-7-3.jpg",
+      "photo-7-4.jpg",
+      "photo-7-5.jpg"
+    ],
+    "description": "Cabaña rústica rodeada de bosque, diseñada para desconectar del ritmo urbano. El fogón exterior y la calefacción interior la hacen cómoda en temporada fría. Es ideal para escapadas de pareja o familias pequeñas.",
+    "host": {
+      "name": "Nicolás",
+      "yearsHosting": 10,
+      "avatarPlaceholder": "avatar-7.jpg"
+    },
+    "amenities": [
+      { "icon": "fire", "label": "Chimenea a leña" },
+      { "icon": "campfire", "label": "Fogón exterior" },
+      { "icon": "tree", "label": "Entorno boscoso" },
+      { "icon": "car", "label": "Estacionamiento" },
+      { "icon": "utensils", "label": "Cocina completa" },
+      { "icon": "wifi", "label": "Wifi" }
+    ],
+    "guestsMin": 1,
+    "guestsMax": 5
+  },
+  {
+    "id": "8",
+    "photos": [
+      "photo-8-1.jpg",
+      "photo-8-2.jpg",
+      "photo-8-3.jpg",
+      "photo-8-4.jpg"
+    ],
+    "description": "Refugio de montaña con vistas abiertas y acceso a senderos cercanos. El interior combina madera natural y detalles cálidos para una estancia acogedora. Es una base excelente para actividades al aire libre durante todo el año.",
+    "host": {
+      "name": "Sofía",
+      "yearsHosting": 3,
+      "avatarPlaceholder": "avatar-8.jpg"
+    },
+    "amenities": [
+      { "icon": "mountain", "label": "Vista a la montaña" },
+      { "icon": "fire", "label": "Calefacción" },
+      { "icon": "map", "label": "Acceso a senderos" },
+      { "icon": "hot-tub", "label": "Tinaja exterior" },
+      { "icon": "wifi", "label": "Wifi" },
+      { "icon": "paw", "label": "Pet friendly" }
+    ],
+    "guestsMin": 1,
+    "guestsMax": 4
+  },
+  {
+    "id": "9",
+    "photos": [
+      "photo-9-1.jpg",
+      "photo-9-2.jpg",
+      "photo-9-3.jpg",
+      "photo-9-4.jpg",
+      "photo-9-5.jpg"
+    ],
+    "description": "Casa de autor con líneas limpias y materiales nobles, pensada para quienes valoran el diseño. Los espacios son abiertos y muy iluminados, con decoración minimalista. Ofrece una experiencia estética cuidada sin perder confort.",
+    "host": {
+      "name": "Lars",
+      "yearsHosting": 11,
+      "avatarPlaceholder": "avatar-9.jpg"
+    },
+    "amenities": [
+      { "icon": "palette", "label": "Diseño de autor" },
+      { "icon": "wifi", "label": "Wifi" },
+      { "icon": "speaker", "label": "Audio envolvente" },
+      { "icon": "coffee", "label": "Cocina premium" },
+      { "icon": "bike", "label": "Bicicletas disponibles" },
+      { "icon": "sun", "label": "Patio interior" }
+    ],
+    "guestsMin": 1,
+    "guestsMax": 4
+  },
+  {
+    "id": "10",
+    "photos": [
+      "photo-10-1.jpg",
+      "photo-10-2.jpg",
+      "photo-10-3.jpg",
+      "photo-10-4.jpg",
+      "photo-10-5.jpg",
+      "photo-10-6.jpg"
+    ],
+    "description": "Apartamento industrial con detalles en metal y madera, ubicado en una zona cultural activa. El espacio está pensado para estancias cómodas, con áreas bien delimitadas para descanso y trabajo. Es ideal para viajeros que buscan estilo y conectividad.",
+    "host": {
+      "name": "Andrea",
+      "yearsHosting": 6,
+      "avatarPlaceholder": "avatar-10.jpg"
+    },
+    "amenities": [
+      { "icon": "palette", "label": "Estilo industrial" },
+      { "icon": "wifi", "label": "Wifi de alta velocidad" },
+      { "icon": "laptop", "label": "Zona de trabajo" },
+      { "icon": "washer", "label": "Lavadora y secadora" },
+      { "icon": "lock", "label": "Acceso seguro" },
+      { "icon": "train", "label": "Cerca de metro" }
+    ],
+    "guestsMin": 1,
+    "guestsMax": 5
+  },
+  {
+    "id": "11",
+    "photos": [
+      "photo-11-1.jpg",
+      "photo-11-2.jpg",
+      "photo-11-3.jpg",
+      "photo-11-4.jpg"
+    ],
+    "description": "Casa panorámica junto al lago con amplios ventanales y entorno sereno. El muelle cercano permite actividades acuáticas y tardes tranquilas al atardecer. Perfecta para quienes priorizan naturaleza y vistas despejadas.",
+    "host": {
+      "name": "Mia",
+      "yearsHosting": 5,
+      "avatarPlaceholder": "avatar-11.jpg"
+    },
+    "amenities": [
+      { "icon": "waves", "label": "Acceso al lago" },
+      { "icon": "dock", "label": "Muelle compartido" },
+      { "icon": "kayak", "label": "Kayak disponible" },
+      { "icon": "fire", "label": "Calefacción" },
+      { "icon": "wifi", "label": "Wifi" },
+      { "icon": "mountain", "label": "Vista panorámica" }
+    ],
+    "guestsMin": 2,
+    "guestsMax": 6
+  },
+  {
+    "id": "12",
+    "photos": [
+      "photo-12-1.jpg",
+      "photo-12-2.jpg",
+      "photo-12-3.jpg",
+      "photo-12-4.jpg",
+      "photo-12-5.jpg"
+    ],
+    "description": "Villa elegante frente al lago con espacios amplios para grupos. El muelle privado y la terraza convierten cada jornada en una experiencia relajada. Está preparada para vacaciones familiares con alto estándar de comodidad.",
+    "host": {
+      "name": "Giulia",
+      "yearsHosting": 12,
+      "avatarPlaceholder": "avatar-12.jpg"
+    },
+    "amenities": [
+      { "icon": "dock", "label": "Muelle privado" },
+      { "icon": "waves", "label": "Vista al lago" },
+      { "icon": "wine", "label": "Terraza panorámica" },
+      { "icon": "pool", "label": "Jacuzzi exterior" },
+      { "icon": "car", "label": "Estacionamiento" },
+      { "icon": "wifi", "label": "Wifi" },
+      { "icon": "utensils", "label": "Cocina equipada" }
+    ],
+    "guestsMin": 2,
+    "guestsMax": 8
+  }
+]

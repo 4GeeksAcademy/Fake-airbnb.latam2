@@ -1,0 +1,10 @@
+name: fake-airbnb-latam2
+node_version: v24.14.0
+package_manager: npm
+scripts:
+  dev: next dev
+  build: next build
+  lint: eslint
+dev_port: 3000
+mock:
+  delay_ms: 1000

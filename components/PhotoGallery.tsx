@@ -10,8 +10,12 @@ type PhotoGalleryProps = {
 export const PhotoGallery = ({ photos, title }: PhotoGalleryProps) => {
   const safePhotos = useMemo(() => (photos.length > 0 ? photos : ["photo-placeholder.jpg"]), [photos]);
   const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
-  const currentPhoto = safePhotos[currentPhotoIndex];
-  const photoUrl = `https://picsum.photos/seed/${encodeURIComponent(currentPhoto)}/1200/800`;
+  const roomIdSeed = useMemo(() => {
+    const firstPhoto = safePhotos[0];
+    const match = firstPhoto.match(/photo-(\d+)-/);
+    return match ? match[1] : "0";
+  }, [safePhotos]);
+  const photoUrl = `https://loremflickr.com/800/600/interior,house,apartment/all?random=${roomIdSeed}`;
 
   const prevPhoto = () => {
     setCurrentPhotoIndex((prev) => (prev === 0 ? safePhotos.length - 1 : prev - 1));

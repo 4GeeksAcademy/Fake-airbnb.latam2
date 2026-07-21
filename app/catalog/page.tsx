@@ -1,13 +1,17 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { useEffect, useMemo, useState } from "react";
 import data from "@/data/modelo1.json";
 import { Navbar } from "@/components/Navbar";
 import { ListingGrid } from "@/components/ListingGrid";
-import { MapPlaceholder } from "@/components/MapPlaceholder";
 import { ResultsHeader } from "@/components/ResultsHeader";
 import { Alojamiento } from "@/types/alojamiento";
 import { MOCK_DELAY_MS } from "@/config/mock";
+
+const CatalogMap = dynamic(() => import("@/components/CatalogMap").then((mod) => mod.CatalogMap), {
+  ssr: false,
+});
 
 type SortOrder = "asc" | "desc";
 
@@ -55,7 +59,7 @@ export default function CatalogPage() {
           <div>
             <ListingGrid alojamientos={visibleListings} />
           </div>
-          <MapPlaceholder />
+          <CatalogMap alojamientos={visibleListings} />
         </main>
       )}
     </div>

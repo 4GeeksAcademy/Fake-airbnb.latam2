@@ -9,7 +9,9 @@ export const Navbar = ({ query, onQueryChange }: NavbarProps) => {
   return (
     <header className="sticky top-0 z-20 border-b border-[#DDDDDD] bg-white/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center gap-3 px-4 md:h-20 md:px-10">
-        <div className="text-lg font-bold text-[#FF385C] md:text-xl">LATAMbnb</div>
+        <Link href="/" className="text-lg font-bold text-[#FF385C] md:text-xl">
+          LATAMbnb
+        </Link>
         <div className="flex-1">
           <label htmlFor="search" className="sr-only">
             Buscar alojamientos

@@ -6,7 +6,7 @@ type ListingCardProps = {
 };
 
 export const ListingCard = ({ alojamiento }: ListingCardProps) => {
-  const imageUrl = `https://picsum.photos/seed/listing-${alojamiento.id}/800/600`;
+  const imageUrl = `https://loremflickr.com/800/600/interior,house,apartment/all?random=${alojamiento.id}`;
 
   return (
     <Link href={`/rooms/${alojamiento.id}`} className="block">

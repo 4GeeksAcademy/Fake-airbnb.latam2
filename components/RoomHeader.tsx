@@ -6,14 +6,11 @@ type RoomHeaderProps = {
 };
 
 export const RoomHeader = ({ title, rating, reviewsCount, location }: RoomHeaderProps) => {
-  const fullStars = Math.round(rating);
-  const stars = `${"*".repeat(fullStars)}${".".repeat(Math.max(0, 5 - fullStars))}`;
-
   return (
     <section>
       <h1 className="text-2xl font-semibold text-[#222222] md:text-3xl">{title}</h1>
       <div className="mt-3 flex flex-wrap items-center gap-2 text-sm text-[#6A6A6A]">
-        <span className="font-medium text-[#222222]">{stars}</span>
+        <span className="font-medium text-[#222222]">★</span>
         <span className="text-[#222222]">{rating.toFixed(1)}</span>
         <span>({reviewsCount} reseñas)</span>
         <span>·</span>
